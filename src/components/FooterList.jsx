@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const FooterList = styled.ul `
-margin-right: 80px;
+    margin-right: 80px;
     list-style-type: none;
     color: #fff;
     small {
@@ -11,7 +11,7 @@ margin-right: 80px;
     li {
         margin: 15px 0px 15px 0px;
         width: 100%;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 `
 
