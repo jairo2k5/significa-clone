@@ -15,7 +15,7 @@ const Sidebar = styled.div`
     position: absolute;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 100%;
     color: #fff;
     background: #171717;
     width: 100%;
