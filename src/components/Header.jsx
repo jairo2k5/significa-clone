@@ -18,7 +18,7 @@ const Sidebar = styled.div`
     height: 100vh;
     color: #fff;
     background: #171717;
-    width: 100vh;
+    width: 100%;
     max-width: 400px;
     .top-sidebar {
         display: flex;
