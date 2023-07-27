@@ -1,8 +1,32 @@
-import FooterList from './FooterList'
-import GrayParagraph from './GrayParapragh'
+/* Libraries */
+import styled from 'styled-components'
+
+/* Stylesheet */
 import './styles/Footer.sass'
 
 function Footer() {
+    const FooterList = styled.ul`
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        color: #fff;
+        margin-right: 40px;
+        small {
+            color: rgb(160, 160, 162);
+            font-weight: bold;
+        }
+        li {
+            margin: 15px 0px 15px 0px;
+            width: 100%;
+            font-size: 1.1em;
+        }
+    `
+
+    const GrayParagraph = styled.p`
+        color: #999;
+        margin: 0;
+    `
+
     return (
         <>
             <div className="footer">
