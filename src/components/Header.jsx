@@ -1,10 +1,13 @@
 /* Resources by Libraries */
-import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 /* Stylesheet */
 import './styles/Header.sass'
+
+/* Components */
+import Routes from './Routes'
 
 /* Code */
 
@@ -63,18 +66,6 @@ const GetQuote = styled(Link)`
     font-size: 1em;
     &:hover {
         box-shadow: 0px 0px 2px 2px #ffb44396;
-    }
-`
-
-const Routes = styled(Link)`
-    text-decoration: none;
-    color: #fff;
-    margin: 0px 10px 0px 10px;
-    font-size: 1em;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
-    transition: 250ms;
-    &:hover {
-        border-bottom: 2px solid #ddd;
     }
 `
 
