@@ -7,7 +7,7 @@ const Menu = styled.button`
     cursor: pointer;
     border-radius: 15px;
     transition-duration: 150ms;
-    margin: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 5px;
     display: grid;
     align-self: center;
     background: #151515;

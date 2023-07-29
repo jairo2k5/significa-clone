@@ -1,19 +1,34 @@
 .sidebar
+    position: fixed
+    right: 0
+    top: 0
+    width: 100%
+    max-width: 370px
+    height: 100vh
     display: flex
     flex-direction: column
-    padding: 20px
-    position: fixed
-    top: 0
-    right: 0
-    height: 100vh
-    color: #fff
     background: #171717
-    width: 100%
-    max-width: 400px
-    .top-sidebar
+    padding-top: 20px
+    .top
+        width: 90%
+        margin: 0 auto
         display: flex
+        flex-direction: row
         justify-content: space-between
         align-items: center
         .right
             display: flex
             flex-direction: row
+    .body
+        width: 90%
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        ul
+            font-size: 1em
+            margin-top: 20px
+            line-height: 17px
+            small
+                font-weight: 500
+            li
+                font-weight: 500
