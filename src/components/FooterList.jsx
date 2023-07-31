@@ -14,6 +14,11 @@ const FooterList = styled.ul`
         margin: 15px 0px 15px 0px;
         width: 100%;
         font-size: 1em;
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1em;
+        }
     }
 `
 

@@ -1,5 +1,6 @@
 /* Resources by Libraries */
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 /* Stylesheet */
 import './styles/Footer.sass'
@@ -24,13 +25,13 @@ function Footer() {
                 <div className="footer-links">
                     <FooterList>
                         <small>SIGNIFICA</small>
-                        <li>Home</li>
-                        <li>Projects</li>
-                        <li>Services</li>
-                        <li>About</li>
-                        <li>Blog</li>
-                        <li>Careers</li>
-                        <li>Contact us</li>
+                        <li><Link to={'/'}>Home</Link></li>
+                        <li><Link to={'/projects'}>Projects</Link></li>
+                        <li><Link to={'/services'}>Services</Link></li>
+                        <li><Link to={'/about'}>About</Link></li>
+                        <li><Link>Blog</Link></li>
+                        <li><Link>Careers</Link></li>
+                        <li><Link>Contact us</Link></li>
                     </FooterList>
                     <FooterList>
                         <small>HANDBOOK</small>

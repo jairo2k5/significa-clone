@@ -2,6 +2,7 @@ import './styles/Sidebar.sass'
 import GetQuote from './GetQuote'
 import Menu from './Menu'
 import FooterList from './FooterList'
+import { Link } from 'react-router-dom'
 
 function Sidebar({ active }) {
     return (
@@ -18,10 +19,10 @@ function Sidebar({ active }) {
             <div className="body">
                 <FooterList>
                     <small>SIGNIFICA</small>
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Services</li>
-                    <li>About</li>
+                    <li><Link to={'/'}>Home</Link></li>
+                    <li><Link to={'/projects'}>Projects</Link></li>
+                    <li><Link to={'/services'}>Services</Link></li>
+                    <li><Link to={'/about'}>About</Link></li>
                     <li>Blog</li>
                     <li>Careers</li>
                     <li>Contact us</li>
