@@ -18,6 +18,12 @@ const FooterList = styled.ul`
             text-decoration: none;
             color: #fff;
             font-size: 1em;
+            border-bottom: 2px solid rgba(0, 0, 0, 0);
+            transition: 250ms;
+
+            &:hover {
+                border-color: #555;
+            }
         }
     }
 `

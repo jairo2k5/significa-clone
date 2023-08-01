@@ -9,7 +9,7 @@ const Routes = styled(Link)`
     border-bottom: 2px solid rgba(0, 0, 0, 0);
     transition: 250ms;
     &:hover {
-        border-bottom: 2px solid #ddd;
+        border-bottom: 2px solid #555;
     }
 `
 
